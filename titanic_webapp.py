@@ -10,7 +10,7 @@ def main():
     html_temp = """
     <style>
     body{
-    background-image: url("/background.jpg");
+    background-image: url("background.jpg");
     background-size: cover;
     }
     
