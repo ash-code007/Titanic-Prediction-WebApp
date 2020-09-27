@@ -44,18 +44,16 @@ def main():
     }
     
     .stRadio .stSlider .stNumberInput {
-    color: black;
-    background: white;
-    text-align:left;
-    border-radius: 10px;
-    padding:10px;
+    color: black !important;
+    background: white !important;
+    text-align:left !important;
+    border-radius: 10px !important;
+    padding:10px !important;
     }
     
     button {
-    
     width: 25%;
     height: 70px;
-        
     }
     
     </style>
