@@ -8,8 +8,10 @@ model=pickle.load(open('model.pkl','rb'))
 def main():
     st.title("Titanic Survival Prediction")
     html_temp = """
-    <div style="background-color:teal ;padding:10px">
+    <div style="background-image: url('titanic.jpg');">
+    <div style="background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); padding:10px">
     <h4 style="color:white;text-align:center;">Enter the details of the traveller:</h2>
+    </div>
     </div>
     """
     st.markdown(html_temp, unsafe_allow_html=True)
