@@ -43,7 +43,12 @@ def main():
     padding:10px;
     }
     
+    button {
     
+    width=140px;
+    height:70px;
+        
+    }
     </style>
     
     <div id='textspace'>
