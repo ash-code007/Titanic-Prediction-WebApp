@@ -43,7 +43,7 @@ def main():
     padding:10px;
     }
     
-    .stRadio .stSlider .stNumberInput {
+    .Widget .stRadio .stSlider .stNumberInput {
     color: black !important;
     background: white !important;
     text-align:left !important;
