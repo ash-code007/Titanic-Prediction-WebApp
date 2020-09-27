@@ -14,8 +14,8 @@ def main():
     color: white;
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
     text-align:left;
-    font-family: Helvetica, sans-serif;
-    border-radius:10px;
+    font-family: Goudy Old Style;
+    border-radius:20px;
     border-style: solid;
     padding:10px;
     }
@@ -23,11 +23,11 @@ def main():
     </style>
     
     <div id='textspace'>
-        <h1 style="font-variant: small-caps;">Titanic Survival Prediction</h1>
-        <p> <i>The sinking of the Titanic is one of the most infamous shipwrecks in history.<br/>
+        <h1 style="font-family: Helvetica, sans-serif; font-variant: small-caps;">Titanic Survival Prediction</h1>
+        <p> <i>The sinking of the Titanic is one of the most infamous shipwrecks in history.<br/><br/>
         On April 15, 1912, during her maiden voyage, the widely considered “unsinkable” RMS Titanic sank after colliding with an iceberg. 
         Unfortunately, there weren’t enough lifeboats for everyone onboard, resulting in the death of 1502 out of 2224 passengers and crew.
-        While there was some element of luck involved in surviving, it seems some groups of people were more likely to survive than others.<br/>
+        While there was some element of luck involved in surviving, it seems some groups of people were more likely to survive than others.<br/><br/>
         In this web-app, you can enter the details of an imaginary traveller (ie name, age, gender, socio-economic class, etc). 
         and the app will use the help of an ML algorithm to tell you whether your traveller would have survived the catastrophe or not.
          </i></p>
