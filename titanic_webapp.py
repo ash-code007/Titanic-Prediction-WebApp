@@ -23,6 +23,16 @@ def main():
     border-radius: 30px;
     border-style: solid;
     border-color: white;
+    padding:1px;
+    }
+    
+    #entryspace {
+    color: black;
+    background: white;
+    text-align:left;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: black;
     padding:10px;
     }
     
@@ -52,9 +62,8 @@ def main():
                   and the app will use the help of an ML algorithm to tell you whether your traveller would have survived the catastrophe or not.
                </p>
             </div>
-    </div>
-    
-    <h4 style="color:black;text-align:left;">Enter the details of the traveller:</h2>
+    </div><div id="entryspace">
+      <h4 style="color:black;text-align:left;">Enter the details of the traveller:</h4>
     """
     st.markdown(html_temp, unsafe_allow_html=True)
     # activities=['Logistic Regression','Decision Tree','Random Forrest','Support Vector','K-Neighbours']
