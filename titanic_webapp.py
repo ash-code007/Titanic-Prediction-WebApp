@@ -45,8 +45,8 @@ def main():
     
     button {
     
-    width=140px;
-    height:70px;
+    width: 140px;
+    height: 70px;
         
     }
     </style>
