@@ -18,15 +18,17 @@ def main():
     color: white;
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
     text-align:left;
-    border-width: 15px;
+    
     font-family: Goudy Old Style;
     border-radius: 30px;
     border-style: solid;
     border-color: white;
     padding:10px;
     }
+    
     #textspace img {
     border: 1px solid #ddd;
+    border-width: 10px;
     border-radius: 30px;
     padding: 5px;
     width: 100%;
@@ -37,7 +39,7 @@ def main():
     <div id='textspace'>
         <h1 style="font-family: Copperplate Gothic Light; font-variant: small-caps;text-align:center;">Titanic Survival Prediction</h1>
             <div>
-               <img src="https://cdn.wallpapersafari.com/9/99/g7mtvV.jpg" align="middle" alt="Titanic Image"/>
+               <img src="https://orthofeed.com/wp-content/uploads/2017/06/white-wood-background-new-at-modern-yo3utsavn4mgqdqcmxrf1ntvjfiyxrft1hj6su7thy7okei0mi0odffzluabg9sr-ojpg.jpgg" align="middle" alt="Titanic Image"/>
             </div><div>
                <p> 
                   The sinking of the Titanic is one of the most infamous shipwrecks in history.
