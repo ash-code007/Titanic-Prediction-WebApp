@@ -18,12 +18,19 @@ def main():
     color: white;
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
     text-align:left;
-    
     font-family: Goudy Old Style;
     border-radius: 30px;
     border-style: solid;
     border-color: white;
-    padding:1px;
+    padding:10px;
+    }   
+   
+    #textspace img {
+    border: 1px solid white;
+    border-width: 3px;
+    border-radius: 30px;
+    padding: 1px;
+    width: 100%;
     }
     
     #entryspace {
@@ -36,13 +43,6 @@ def main():
     padding:10px;
     }
     
-    #textspace img {
-    border: 1px solid #ddd;
-    border-width: 10px;
-    border-radius: 30px;
-    padding: 5px;
-    width: 100%;
-    }
     
     </style>
     
@@ -64,6 +64,9 @@ def main():
             </div>
     </div><div id="entryspace">
       <h4 style="color:black;text-align:left;">Enter the details of the traveller:</h4>
+    """
+    html_end = """ 
+    </div>    
     """
     st.markdown(html_temp, unsafe_allow_html=True)
     # activities=['Logistic Regression','Decision Tree','Random Forrest','Support Vector','K-Neighbours']
@@ -116,6 +119,9 @@ def main():
             with st.spinner('Hmm...looks like your traveller..'):
                 time.sleep(3)
             st.error("Didn't Survive...RIP")
+            
+            
+     st.markdown(html_end, unsafe_allow_html=True)
         
 
 if __name__=='__main__':
