@@ -11,7 +11,7 @@ def main():
     <style>
     
     body{
-    background-image: url("https://webgradients.com/public/webgradients_png/019%20Malibu%20Beach.png");
+    background-image: url("https://image.freepik.com/free-vector/gradient-background-green-shades_23-2148363157.jpg");
     background-size: cover;
     }
     
@@ -58,7 +58,8 @@ def main():
     }
     
     footer{
-    text-size : 13pt !important;
+    text-size : 16pt !important;
+    color:black;
     }
     
     </style>
@@ -82,7 +83,7 @@ def main():
     </div><div>
       <h4 style="color:black;text-align:left;">Enter the details of the traveller:</h4>
     """
-    html_end = """</div><br/><br/><br/><br/><br/><footer> Made by <a href="http://ashegde.ml">Abhishek Hegde</a></footer>"""
+    html_end = """</div><br/><br/><br/><br/><br/><p style="text-size : 16pt !important;color:black;"> Made by <a href="http://ashegde.ml">Abhishek Hegde</a></p>"""
     st.markdown(html_temp, unsafe_allow_html=True)
     # activities=['Logistic Regression','Decision Tree','Random Forrest','Support Vector','K-Neighbours']
     # option=st.sidebar.selectbox('Which model would you like to use?',activities)
