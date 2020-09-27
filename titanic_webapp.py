@@ -39,7 +39,7 @@ def main():
     <div id='textspace'>
         <h1 style="font-family: Copperplate Gothic Light; font-variant: small-caps;text-align:center;">Titanic Survival Prediction</h1>
             <div>
-               <img src="https://orthofeed.com/wp-content/uploads/2017/06/white-wood-background-new-at-modern-yo3utsavn4mgqdqcmxrf1ntvjfiyxrft1hj6su7thy7okei0mi0odffzluabg9sr-ojpg.jpgg" align="middle" alt="Titanic Image"/>
+               <img src="https://orthofeed.com/wp-content/uploads/2017/06/white-wood-background-new-at-modern-yo3utsavn4mgqdqcmxrf1ntvjfiyxrft1hj6su7thy7okei0mi0odffzluabg9sr-ojpg.jpg" align="middle" alt="Titanic Image"/>
             </div><div>
                <p> 
                   The sinking of the Titanic is one of the most infamous shipwrecks in history.
@@ -95,15 +95,12 @@ def main():
     if st.button('Predict!'):
         if pred ==1:
             with st.spinner('Loading...'):
-                time.sleep(2)
+                time.sleep(1)
             with st.spinner('Hmm...looks like your traveller..'):
-                time.sleep(3)
+                time.sleep(2)
             st.success("SURVIVED")
             st.balloons()
-            time.sleep(0.3)
-            st.balloons()
-            time.sleep(0.3)
-            st.balloons()
+            
         else: 
             with st.spinner('Loading...'):
                 time.sleep(2)
