@@ -18,6 +18,7 @@ def main():
     font-family: Goudy Old Style;
     border-radius:20px;
     border-style: solid;
+    border-color: white;
     padding:10px;
     }
     #textspace img {
