@@ -14,6 +14,7 @@ def main():
     color: white;
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
     text-align:left;
+    border-width: 7px;
     font-family: Goudy Old Style;
     border-radius:20px;
     border-style: solid;
