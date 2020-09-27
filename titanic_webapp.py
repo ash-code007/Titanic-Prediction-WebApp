@@ -9,15 +9,21 @@ def main():
     # st.title("Titanic Survival Prediction")
     html_temp = """
     <style>
+    
     #textspace {
-    background-image: url('https://www.wallpapertip.com/wmimgs/7-70508_titanic-wallpaper-underwater.jpg');
-    background-size: cover;
     color: white;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    text-align:left;
+    font-family: Copperplate;
+    border-radius:10px;
+    border-style: solid;
+    padding:10px;
     }
+    
     </style>
     
-    <div id='textplace' style="background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); padding:10px">
-    <h1 style="color:white;text-align:left;font-family: Copperplate; border-radius:5px;">Titanic Survival Prediction</h2>
+    <div id='textplace'>
+        <h1>Titanic Survival Prediction</h1>
     </div>
     
     <h4 style="color:black;text-align:left;">Enter the details of the traveller:</h2>
