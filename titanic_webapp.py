@@ -37,7 +37,7 @@ def main():
     pred = prediction[0]
 
     if st.button('Predict!'):
-        if pred ==1::
+        if pred ==1:
             with st.spinner('Loading...'):
                 time.sleep(2)
             with st.spinner('Hmm...looks like your traveller..'):
