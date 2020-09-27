@@ -49,7 +49,7 @@ def main():
                 time.sleep(2)
             with st.spinner('Hmm...looks like your traveller..'):
                 time.sleep(3)
-            st.success("Didn't Survive...RIP")
+            st.error("Didn't Survive...RIP")
         
 
 if __name__=='__main__':
