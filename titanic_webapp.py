@@ -10,15 +10,16 @@ def main():
     html_temp = """
     <style>
     body {
-    background-image: url('titanic.jpg');
+    background-image: url('https://faithmag.com/sites/default/files/styles/article_full/public/2018-09/titanic2.jpg?h=6521bd5e&itok=H8td6QVv');
     background-size: cover;
     }
     </style>
-    <
+    
     <div style="background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); padding:10px">
-    <h1 style="color:white;text-align:center;">Titanic Survival Prediction</h2>
-    <h4 style="color:white;text-align:left;">Enter the details of the traveller:</h2>
+    <h1 style="color:white;text-align:left;font-family: Copperplate;">Titanic Survival Prediction</h2>
     </div>
+    
+    <h4 style="color:black;text-align:left;">Enter the details of the traveller:</h2>
     """
     st.markdown(html_temp, unsafe_allow_html=True)
     # activities=['Logistic Regression','Decision Tree','Random Forrest','Support Vector','K-Neighbours']
