@@ -10,7 +10,7 @@ def main():
     html_temp = """
     <style>
     body{
-    background-image: url("https://drive.google.com/file/d/1pAVOiL-oRh8KOfyPhYXPIGqpg12Nyqk2/view?usp=sharing");
+    background-image: url("/background.jpg");
     background-size: cover;
     }
     
