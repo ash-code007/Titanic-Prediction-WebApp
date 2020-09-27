@@ -9,8 +9,9 @@ def main():
     # st.title("Titanic Survival Prediction")
     html_temp = """
     <style>
+    
     body{
-    background: linear-gradient(45deg, rgba(178,251,187,1) 0%, rgba(100,253,234,1) 100%);
+    background: linear-gradient(45deg, rgb(178,251,187) 0%, rgb(100,253,234) 100%);
     background-size: cover;
     }
     
