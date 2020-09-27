@@ -29,8 +29,8 @@ def main():
     </style>
     
     <div id='textspace'>
-        <h1 style="font-family: Helvetica, sans-serif; font-variant: small-caps;">Titanic Survival Prediction</h1>
-        <img src="https://cdn.wallpapersafari.com/9/99/g7mtvV.jpg" alt="Titanic Image">
+        <h1 style="font-family: Copperplate Gothic Light; font-variant: small-caps;text-align:center;">Titanic Survival Prediction</h1>
+        <img src="https://cdn.wallpapersafari.com/9/99/g7mtvV.jpg" style="align:center;" alt="Titanic Image"></img>
 
         <p> The sinking of the Titanic is one of the most infamous shipwrecks in history.<br/><br/>
         On April 15, 1912, during her maiden voyage, the widely considered “unsinkable” RMS Titanic sank after colliding with an iceberg. 
