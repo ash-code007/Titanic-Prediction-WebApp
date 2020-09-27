@@ -20,11 +20,11 @@ def main():
     
     gender=st.radio("Gender:",('male', 'female'))
     
-    age=st.number_input('Age:', min_value=0, max_value=100,step=1)
+    age=st.number_input('Age:', value=int, min_value=0, max_value=100,step=1)
     
-    sibsp =st.number_input('# of siblings / spouses aboard:', min_value=0, max_value=10,step=1)
+    sibsp =st.number_input('# of siblings / spouses aboard:',value=int, min_value=0, max_value=10,step=1)
     
-    parch =st.number_input('# of parents / children aboard:', min_value=0, max_value=10,step=1)
+    parch =st.number_input('# of parents / children aboard:', value=int, min_value=0, max_value=10,step=1)
     
     fare=st.number_input('Ticket Fare ($):', min_value=0.0, max_value=100.0,step=0.1)
     
