@@ -55,6 +55,7 @@ def main():
             with st.spinner('Hmm...looks like your traveller..'):
                 time.sleep(3)
             st.success("SURVIVED")
+            st.balloons()
         else: 
             with st.spinner('Loading...'):
                 time.sleep(2)
