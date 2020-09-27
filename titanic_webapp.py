@@ -18,17 +18,28 @@ def main():
 
     pclass=st.radio("Ticket Class:",(1,2,3))
     
-    gender=st.radio("Gender:",('male', 'female'))
+    g=st.radio("Gender:",('Male', 'Female'))
+    if g=="Male":
+        gender=1
+    else:
+        gender=0
+          
     
-    age=st.slider('Age:',value=(0,10)) 
+    age=st.slider('Age:',max_value=100) 
     
-    sibsp =st.slider('# of siblings / spouses aboard:',value=(0,10))
+    sibsp =st.slider('# of siblings / spouses aboard:',max_value=10)
     
-    parch =st.slider('# of parents / children aboard:',value=(0,10))
+    parch =st.slider('# of parents / children aboard:',max_value=10)
     
     fare=st.number_input('Ticket Fare ($):', min_value=0.0, max_value=100.0,step=0.1)
     
-    embarked=st.radio("Port of Embarkation:",('Cherbourg', 'Queenstown','Southampton'))[0]
+    emb=st.radio("Port of Embarkation:",('Cherbourg', 'Queenstown','Southampton'))[0]
+    if emb=="C":
+        embarked=1
+    elif emb=="S":
+        embarked=0
+    else
+        embarked=2
     
     inputs=[[pclass, gender, age, sibsp, parch, fare, embarked]]
     
