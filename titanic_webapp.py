@@ -65,7 +65,7 @@ def main():
     </div><div>
       <h4 style="color:black;text-align:left;">Enter the details of the traveller:</h4>
     """
-    html_end = """</div>"""
+    html_end = """</div><footer> Made by Abhishek Hegde</footer>"""
     st.markdown(html_temp, unsafe_allow_html=True)
     # activities=['Logistic Regression','Decision Tree','Random Forrest','Support Vector','K-Neighbours']
     # option=st.sidebar.selectbox('Which model would you like to use?',activities)
