@@ -38,7 +38,7 @@ def main():
         embarked=1
     elif emb=="S":
         embarked=0
-    else
+    else:
         embarked=2
     
     inputs=[[pclass, gender, age, sibsp, parch, fare, embarked]]
