@@ -33,9 +33,7 @@ def main():
             <div>
                <img src="https://cdn.wallpapersafari.com/9/99/g7mtvV.jpg" align="middle" alt="Titanic Image">
                </img>
-            </div>
-        
-             <div>
+            </div><div>
                <p> 
                   The sinking of the Titanic is one of the most infamous shipwrecks in history.
                   <br/><br/>
