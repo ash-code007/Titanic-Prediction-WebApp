@@ -23,7 +23,7 @@ def main():
     border: 1px solid #ddd;
     border-radius: 10px;
     padding: 5px;
-    width: 500px;
+    width: 100%;
     }
     
     </style>
@@ -31,8 +31,7 @@ def main():
     <div id='textspace'>
         <h1 style="font-family: Copperplate Gothic Light; font-variant: small-caps;text-align:center;">Titanic Survival Prediction</h1>
             <div>
-               <img src="https://cdn.wallpapersafari.com/9/99/g7mtvV.jpg" align="middle" alt="Titanic Image">
-               </img>
+               <img src="https://cdn.wallpapersafari.com/9/99/g7mtvV.jpg" align="middle" alt="Titanic Image"/>
             </div><div>
                <p> 
                   The sinking of the Titanic is one of the most infamous shipwrecks in history.
