@@ -9,6 +9,10 @@ def main():
     # st.title("Titanic Survival Prediction")
     html_temp = """
     <style>
+    body{
+    background-image: url("http://www.pngmagic.com/product_images/gray-gradient-background.jpg");
+    background-size: cover;
+    }
     
     #textspace {
     color: white;
@@ -16,14 +20,14 @@ def main():
     text-align:left;
     border-width: 15px;
     font-family: Goudy Old Style;
-    border-radius:20px;
+    border-radius: 30px;
     border-style: solid;
     border-color: white;
     padding:10px;
     }
     #textspace img {
     border: 1px solid #ddd;
-    border-radius: 10px;
+    border-radius: 30px;
     padding: 5px;
     width: 100%;
     }
