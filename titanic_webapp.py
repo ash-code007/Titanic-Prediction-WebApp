@@ -10,7 +10,7 @@ def main():
     html_temp = """
     <style>
     body{
-    background-image: url("background.jpg");
+    background-image: url("https://github.com/ash-code007/Titanic-Prediction-WebApp/blob/master/background.jpg");
     background-size: cover;
     }
     
@@ -62,7 +62,7 @@ def main():
                   and the app will use the help of an ML algorithm to tell you whether your traveller would have survived the catastrophe or not.
                </p>
             </div>
-    </div><div id="entryspace">
+    </div><div>
       <h4 style="color:black;text-align:left;">Enter the details of the traveller:</h4>
     """
     html_end = """</div>"""
@@ -108,7 +108,7 @@ def main():
                 time.sleep(1)
             with st.spinner('Hmm...looks like your traveller..'):
                 time.sleep(2)
-            st.success("SURVIVED")
+            st.success("SURVIVED!")
             st.balloons()
             
         else: 
