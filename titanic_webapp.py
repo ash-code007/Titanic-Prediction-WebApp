@@ -11,7 +11,7 @@ def main():
     <style>
     
     body{
-    background: linear-gradient(45deg, rgb(178,251,187) 0%, rgb(100,253,234) 100%);
+    background-color: linear-gradient(45deg, rgb(178,251,187) 0%, rgb(100,253,234) 100%);
     }
     
     #textspace {
