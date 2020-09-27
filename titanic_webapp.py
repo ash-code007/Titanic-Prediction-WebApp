@@ -34,8 +34,7 @@ def main():
     
     
     prediction = model.predict(inputs)
-    
-	pred = prediction[0]
+    pred = prediction[0]
 
     if st.button('Predict!'):
         if pred ==1::
