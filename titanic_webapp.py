@@ -10,7 +10,7 @@ def main():
     html_temp = """
     <style>
     body{
-    background-image: url("http://www.pngmagic.com/product_images/gray-gradient-background.jpg");
+    background-image: url("https://orthofeed.com/wp-content/uploads/2017/06/white-wood-background-new-at-modern-yo3utsavn4mgqdqcmxrf1ntvjfiyxrft1hj6su7thy7okei0mi0odffzluabg9sr-ojpg.jpg");
     background-size: cover;
     }
     
@@ -39,7 +39,7 @@ def main():
     <div id='textspace'>
         <h1 style="font-family: Copperplate Gothic Light; font-variant: small-caps;text-align:center;">Titanic Survival Prediction</h1>
             <div>
-               <img src="https://orthofeed.com/wp-content/uploads/2017/06/white-wood-background-new-at-modern-yo3utsavn4mgqdqcmxrf1ntvjfiyxrft1hj6su7thy7okei0mi0odffzluabg9sr-ojpg.jpg" align="middle" alt="Titanic Image"/>
+               <img src="https://cdn.wallpapersafari.com/9/99/g7mtvV.jpg" align="middle" alt="Titanic Image"/>
             </div><div>
                <p> 
                   The sinking of the Titanic is one of the most infamous shipwrecks in history.
