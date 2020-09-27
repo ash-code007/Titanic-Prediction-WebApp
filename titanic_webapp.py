@@ -10,7 +10,7 @@ def main():
     html_temp = """
     <style>
     body{
-    background-image: url("https://raw.githubusercontent.com/ash-code007/Titanic-Prediction-WebApp/master/background.jpg");
+    background: rgb(19,195,239);
     background-size: cover;
     }
     
