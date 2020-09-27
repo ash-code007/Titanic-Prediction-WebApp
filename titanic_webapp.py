@@ -12,7 +12,6 @@ def main():
     
     body{
     background: linear-gradient(45deg, rgb(178,251,187) 0%, rgb(100,253,234) 100%);
-    background-size: cover;
     }
     
     #textspace {
@@ -55,6 +54,10 @@ def main():
     button {
     width: 25%;
     height: 70px;
+    }
+    
+    footer{
+    text-size : 13pt !important;
     }
     
     </style>
