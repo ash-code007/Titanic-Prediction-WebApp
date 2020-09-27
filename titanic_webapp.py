@@ -10,11 +10,6 @@ def main():
     html_temp = """
     <style>
     
-    body{
-    background-image: url("https://image.freepik.com/free-vector/gradient-background-green-shades_23-2148363157.jpg");
-    background-size: cover;
-    }
-    
     #textspace {
     color: white;
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
