@@ -10,7 +10,7 @@ def main():
     html_temp = """
     <style>
     body{
-    background-image: url("https://orthofeed.com/wp-content/uploads/2017/06/white-wood-background-new-at-modern-yo3utsavn4mgqdqcmxrf1ntvjfiyxrft1hj6su7thy7okei0mi0odffzluabg9sr-ojpg.jpg");
+    background-image: url("https://drive.google.com/file/d/1pAVOiL-oRh8KOfyPhYXPIGqpg12Nyqk2/view?usp=sharing");
     background-size: cover;
     }
     
@@ -65,9 +65,7 @@ def main():
     </div><div id="entryspace">
       <h4 style="color:black;text-align:left;">Enter the details of the traveller:</h4>
     """
-    html_end = """ 
-    </div>    
-    """
+    html_end = """</div>"""
     st.markdown(html_temp, unsafe_allow_html=True)
     # activities=['Logistic Regression','Decision Tree','Random Forrest','Support Vector','K-Neighbours']
     # option=st.sidebar.selectbox('Which model would you like to use?',activities)
