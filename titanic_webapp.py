@@ -1,5 +1,6 @@
 import streamlit as st
 import pickle
+import time
 
 model=pickle.load(open('model.pkl','rb'))
 
