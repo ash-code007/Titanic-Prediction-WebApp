@@ -10,7 +10,7 @@ def main():
     html_temp = """
     <style>
     body{
-    background: rgb(19,195,239);
+    background: linear-gradient(45deg, rgba(178,251,187,1) 0%, rgba(100,253,234,1) 100%);
     background-size: cover;
     }
     
