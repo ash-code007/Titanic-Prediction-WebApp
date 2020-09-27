@@ -22,7 +22,7 @@ def main():
     
     </style>
     
-    <div id='textplace'>
+    <div id='textspace'>
         <h1>Titanic Survival Prediction</h1>
     </div>
     
