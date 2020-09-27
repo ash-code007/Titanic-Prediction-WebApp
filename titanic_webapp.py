@@ -11,7 +11,8 @@ def main():
     <style>
     
     body{
-    background-color: linear-gradient(45deg, rgb(178,251,187) 0%, rgb(100,253,234) 100%);
+    background-image: url("https://webgradients.com/public/webgradients_png/019%20Malibu%20Beach.png");
+    background-size: cover;
     }
     
     #textspace {
