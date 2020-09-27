@@ -10,8 +10,9 @@ def main():
     html_temp = """
     <style>
     body {
-    background-image: url('https://faithmag.com/sites/default/files/styles/article_full/public/2018-09/titanic2.jpg?h=6521bd5e&itok=H8td6QVv');
+    background-image: url('https://www.wallpapertip.com/wmimgs/7-70508_titanic-wallpaper-underwater.jpg');
     background-size: cover;
+    color: white;
     }
     </style>
     
